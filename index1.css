@@ -1,0 +1,186 @@
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+
+#main{
+    height: 100%;
+    width: 100%;
+    /* background-color: rgb(252, 250, 250); */
+}
+#nav{
+    height: 60px;
+    width: auto;
+    /* background-color: red; */
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+    padding: 0 20px;
+}
+#nav h4{
+    font-size: 20px;
+    font-weight: 600;
+}
+#nav i{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 50%;
+    font-weight: 500;
+}
+#center{
+
+    width: auto;
+    /* background-color: red; */
+    padding: 30px 60px;
+}
+#center h1{
+    /* font-size: 60px; */
+    font-size: 4vw;
+    font-weight: 500;
+    line-height: 4.2vw;
+}
+#center-in{
+    height: 200px;
+    width: 100%;
+    /* background-color: red; */
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+
+}
+#center-in p{
+    /* font-size: 20px; */
+    font-size: 1.2vw;
+    font-weight: 600;
+    line-height:1.9vw;
+}
+#right{
+   width: 20%;
+}
+.elem{
+    /* background-color: yellow; */
+    /* margin: 5px; */
+    padding: 20px 0;
+    border-top: 3px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.elem i{
+    font-size: 25px;
+    font-weight: 500;
+    opacity: 0;
+}
+.elem a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+}
+.elem:hover i{
+    opacity: 1;
+   
+}
+.elem:hover a{
+text-decoration:underline;
+}
+#bottom{
+    height: 600px;
+    width: 100%;
+    background-color: red;
+background-image: url(https://marketplace.canva.com/EAFO74bDca8/3/0/1600w/canva-brown-white-modern-fashion-banner-OgcIyosRRcE.jpg);
+    background-size: cover;
+    background-position: 0 25%;
+}
+@media (max-width:600px) {
+    #nav{
+        height: 40px;
+
+        gap: 23px;
+        padding: 0 18px;
+    }
+    #nav h4{
+        font-size: 12px;
+        font-weight: 600;
+        display: none;
+    }
+    #nav i{
+        background-color: black;
+        color: white;
+        font-size: 11px;
+        padding: 7px;
+        border-radius: 50%;
+        font-weight: 500;
+    }
+    #center{
+
+        width: auto;
+        /* background-color: red; */
+        padding: 15px 20px;
+    }
+    #center h1{
+        /* font-size: 60px; */
+        font-size: 9vw;
+        font-weight: 500;
+        line-height: 11vw;
+    }
+    #center-in{
+        height: 200px;
+        width: 100%;
+        /* background-color: red; */
+        margin-top: 20px;
+        gap: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    
+    }
+    #center-in p{
+        /* font-size: 20px; */
+        font-size: 3vw;
+        font-weight: 600;
+        line-height:4vw;
+    }
+    #right{
+        width: 100%;
+     }
+     .elem{
+         /* background-color: yellow; */
+         /* margin: 5px; */
+         padding: 12px 0;
+         border-top: 1.5px solid black;
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+     }
+     .elem i{
+         font-size: 14px;
+         font-weight: 500;
+         opacity: 1;
+     }
+     .elem a{
+         color: rgb(68, 68, 68);
+         text-decoration: none;
+         font-size: 12px;
+         font-weight: 600;
+     }
+     .elem:hover i{
+         opacity: 1;
+        
+     }
+     .elem:hover a{
+     text-decoration:underline;
+     }
+     #bottom{
+        height:33.5%;
+        width: 100%;
+        background-color: red;
+    background-image: url(https://marketplace.canva.com/EAFO74bDca8/3/0/1600w/canva-brown-white-modern-fashion-banner-OgcIyosRRcE.jpg);
+        background-size: cover;
+        background-position: 0 25%;
+    }
+}
